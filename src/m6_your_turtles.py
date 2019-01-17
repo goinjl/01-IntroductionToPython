@@ -11,7 +11,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 import rosegraphics as rg
 
 ########################################################################
-# TODO: 2.
+# DONE: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -30,11 +30,17 @@ import rosegraphics as rg
 #
 ########################################################################
 window = rg.TurtleWindow()
-window.tracer(3)
+window.tracer(2)
 zariyah = rg.SimpleTurtle
 zariyah = rg.SimpleTurtle('turtle')
 zariyah.pen = rg.Pen('blue',1)
 zariyah.backward(50)
-for k in range (500):
+for k in range(500):
     zariyah.left(90)
     zariyah.forward(k)
+myon = rg.SimpleTurtle
+myon = rg.SimpleTurtle('turtle')
+myon.pen = rg.Pen('maroon',1)
+for k in range(3000):
+    myon.right(30)
+    myon.backward(k)
