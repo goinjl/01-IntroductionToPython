@@ -56,7 +56,8 @@ print(t)
 #   Print both of the expressions that you write.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(math.sqrt(2))
+print(2**0.5)
 
 ###############################################################################
 # TODO: 5.
@@ -64,7 +65,7 @@ print(t)
 #   for the object that is computed by  math.sqrt(2):
 #      Its TYPE is float  (which is shorthand for "floating point number").
 #      Its VALUE is (approximately) 1.4142135623730951.
-#
+print(type(3.14))
 #   The TYPE of an object is important because it determines:
 #      -- what the object KNOWS, and
 #      -- what the object can DO.
@@ -98,7 +99,18 @@ print(t)
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
-
+print(type("hello"))
+print(type('hello'))
+print(type('a b c'))
+print(type(3 + 3))
+print(type("3" + "3"))
+print(type(2**100))
+print(type(2.0**100))
+print(type(math.sin(8)))
+print(type(math.sin))
+print(type(print))
+print(type(math))
+print(type('math'))
 ###############################################################################
 #
 # TODO: 6.
