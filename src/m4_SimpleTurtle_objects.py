@@ -126,16 +126,12 @@ natasha.backward(127)
 #   As always, test by running the module.
 #
 ###############################################################################
-lauren = rg.SimpleTurtle
-lauren = rg.SimpleTurtle('turtle')
-lauren.pen = rg.Pen('purple',80)
-lauren.speed = 5
-lauren.backward(117)
+
 
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   The above code  CONSTRUCTS  two SimpleTurtle objects
 #   and gives those objects NAMES:
 #       boris    natasha
@@ -159,10 +155,14 @@ lauren.backward(117)
 #   As always, test by running the module.
 #
 ###############################################################################
-
+lauren = rg.SimpleTurtle
+lauren = rg.SimpleTurtle('turtle')
+lauren.pen = rg.Pen('purple',80)
+lauren.speed = 5
+lauren.backward(117)
 ###############################################################################
 #
-# TODO: 6.
+# DONE: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #
