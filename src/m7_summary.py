@@ -11,7 +11,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 import rosegraphics as rg
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Write code that accomplishes the following (and ONLY the following),
 #   in the order listed:
 #
@@ -47,7 +47,8 @@ window = rg.TurtleWindow()
 jacey = rg.SimpleTurtle()
 jacey = rg.SimpleTurtle('turtle')
 jacey.pen = rg.Pen('blue',1)
-jacey.left(20)
+jacey.left(90)
+jacey.forward(200)
 jacey.pen_up()
 jacey.go_to(rg.Point(100, -40))
 jacey.pen_down()
